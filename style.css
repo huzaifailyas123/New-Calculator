@@ -1,0 +1,40 @@
+.div{
+    
+    margin-top: 5cm;
+    width: 400px;
+    height: auto;
+    background-color: black;
+    padding: 15px;
+    border: black,2px,solid;
+    margin-left: 13cm;
+    text-align: center;
+}
+*{
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+}
+body{
+    background-color: skyblue;
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+input[type=button]{
+    width: 89px;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#del{
+    width: 100%;
+}
+#del:hover{
+    background-color: red;
+}
